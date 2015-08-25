@@ -1,0 +1,10 @@
+step1: blkind.ncl 
+step2: ATL_blk_day_sector.ncl
+       EPA_blk_day_sector.ncl
+       EUR_blk_day_sector.ncl
+       WPA_blk_day_sector.ncl
+step3  blkind_sector_duration_ATL.ncl
+       blkind_sector_duration_EPA.ncl
+       blkind_sector_duration_EUR.ncl
+       blkind_sector_duration_WPA.ncl
+

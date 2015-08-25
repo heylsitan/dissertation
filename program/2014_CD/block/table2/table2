@@ -1,0 +1,16 @@
+
+	 trend    meanday		duration		    event_number
+	          pos/neg		pos/neg		pos/neg(5-9)		pos/neg(>=10)	
+ATL	  0.05    18.1/29.4	    10.1/11.8	7/9			        10/14
+EUR	 -0.13    21.6/35.7	    9/11.8		16/11			    7/15
+WPA	  -0.049  14.3/20		11.3/11.5	5/14			    8/7
+EPA	  0.02    18.1/21		10.1/9.7	16/13			    4/7
+
+here positive and negative year choose the most or least nine year.and creteria is unity, depend on cru_index
+trend always is to 2011 winter so don't change when up data to 2011 year
+block/block/program/cru_sector/2
+
+positive year=34,38,40,43,46,49,50,53,58 +1949
+negative year=1,2,7,8,20,30,36,61,62 +1939
+
+
